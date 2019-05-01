@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Standing_WhichLeague">
+
+    <TextView
+        android:layout_width="277dp"
+        android:layout_height="226dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="63dp"
+
+        android:text="Leagues"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/LaLiga"
+        android:layout_width="185dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="132dp"
+        android:text="La Liga"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/EnglishPremierLeague"
+        android:layout_width="180dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="233dp"
+        android:text="EPL"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/SeriaA"
+        android:layout_width="177dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="333dp"
+        android:text="Seria A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/France"
+        android:layout_width="167dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="433dp"
+        android:text="Ligue Un"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/budesliga"
+        android:layout_width="170dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="536dp"
+        android:text="Bundesliga"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
